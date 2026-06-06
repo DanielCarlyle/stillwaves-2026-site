@@ -2584,8 +2584,8 @@ nav a:hover {
     width: 100%;
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
-    height: 285px;
-    max-width: fit-content;
+    /*height: 285px;
+    max-width: fit-content; */
 }
 
 .newsletter-block {
@@ -2618,4 +2618,8 @@ nav a:hover {
     ul li, ol li {
         color: #6f6a6a;
     }
+}
+
+ul.social-icons {
+    display: flex;
 }
