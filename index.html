@@ -154,6 +154,41 @@
                   <p class="text-uppercase mx-auto">
                      New Album: "Vacant Eyes" out soon
                   </p>
+
+<div class="typing-text"></div>
+
+<script>
+   const text = "WARNING: Usage of the Internet is becoming more common due to rapid advancement of technology and the power of globalization.";
+   const element = document.querySelector(".typing-text");
+
+   let i = 0;
+   let deleting = false;
+
+   function type() {
+      if (!deleting) {
+         element.textContent = text.substring(0, i + 1);
+         i++;
+
+         if (i === text.length) {
+            deleting = true;
+            setTimeout(type, 1500);
+            return;
+         }
+      } else {
+         element.textContent = text.substring(0, i - 1);
+         i--;
+
+         if (i === 0) {
+            deleting = false;
+         }
+      }
+
+      setTimeout(type, deleting ? 50 : 100);
+   }
+
+   type();
+</script>
+
                </div>
             </div>
          </div>

@@ -2685,3 +2685,9 @@ background-image: -ms-linear-gradient(0deg, #19171c 0%, #000000 100%);
 ul.social-icons {
   display: flex;
 }
+
+.typing-text {
+  font-size: 14px;
+  font-family: monospace;
+  white-space: nowrap;
+}
