@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "title": "Diagnosed",
+      "year": "2022",
+      "image": "/img/StillWaves-Diagnosed-Album-Cover.jpg",
+      "url": "https://stillwaves.bandcamp.com/",
+      "tracks": [
+        "I See You in Ruins",
+        "Lost the Plot",
+        "There is No Hope",
+        "Mirrors Tell All",
+        "Regressing Times",
+        "Modern Fascist",
+        "No Minds",
+        "Trust Yourself"
+      ]
+    },
+    {
+      "title": "Undiagnosed",
+      "year": "2024",
+      "image": "/img/StillWaves-Undiagnosed-Album-Cover.jpg",
+      "url": "https://stillwaves.bandcamp.com/",
+      "tracks": [
+        "It Still Burns",
+        "Undiagnosed",
+        "I’m Haunted",
+        "Aurora, CO (Justice for Elijah McClain)",
+        "Scars Lie Below",
+        "Not Safe From Your Heart",
+        "Somewhere I’m Happy",
+        "Reform",
+        "Redlines"
+      ]
+    },
+    {
+      "title": "Vacant Eyes",
+      "year": "2026",
+      "image": "",
+      "url": "https://stillwaves.bandcamp.com/track/vacant-eyes/",
+      "tracks": []
+    }
+  ]
+}
