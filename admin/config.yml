@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: OWNER/REPO
+  repo:  DanielCarlyle/stillwaves-2026-site
   branch: main
   # Set up GitHub OAuth authentication before using /admin/.
 media_folder: img/uploads
