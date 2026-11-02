@@ -1,0 +1,66 @@
+backend:
+  name: github
+  repo: OWNER/REPO
+  branch: main
+  # Set up GitHub OAuth authentication before using /admin/.
+media_folder: img/uploads
+public_folder: /img/uploads
+collections:
+  - name: content
+    label: Website content
+    files:
+      - name: site
+        label: Site details
+        file: content/site.json
+        format: json
+        fields:
+          - {label: Tagline, name: tagline, widget: string}
+          - {label: Announcement, name: announcement, widget: string}
+          - label: About paragraphs
+            name: about
+            widget: list
+            field: {label: Paragraph, name: paragraph, widget: text}
+          - {label: Contact email, name: contact_email, widget: string}
+          - {label: Contact form URL, name: contact_action, widget: string}
+          - {label: Newsletter form URL, name: newsletter_action, widget: string}
+          - {label: Songkick, name: songkick, widget: string}
+          - {label: Bandcamp, name: bandcamp, widget: string}
+          - {label: Spotify, name: spotify, widget: string}
+          - {label: Facebook, name: facebook, widget: string}
+          - {label: Instagram, name: instagram, widget: string}
+      - name: albums
+        label: Releases
+        file: content/albums.json
+        format: json
+        fields:
+          - label: Albums
+            name: items
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Year, name: year, widget: string}
+              - {label: Artwork, name: image, widget: image, required: false}
+              - {label: Listen URL, name: url, widget: string}
+              - {label: Tracks, name: tracks, widget: list, field: {label: Track, name: track, widget: string}}
+      - name: videos
+        label: Videos
+        file: content/videos.json
+        format: json
+        fields:
+          - label: Videos
+            name: items
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: YouTube ID, name: youtube_id, widget: string}
+      - name: posters
+        label: Posters
+        file: content/posters.json
+        format: json
+        fields:
+          - label: Posters
+            name: items
+            widget: list
+            fields:
+              - {label: Poster image, name: image, widget: image}
+              - {label: Description, name: alt, widget: string}
