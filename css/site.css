@@ -53,3 +53,86 @@ html {
 #merch {
   scroll-margin-top: 90px;
 }
+
+/* STILLWAVES — Contemporary typography */
+
+:root {
+  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-body: "Manrope", Arial, sans-serif;
+}
+
+/* Body and paragraphs */
+body {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0;
+}
+
+/* Large editorial headings */
+h1,
+h2,
+h3,
+.hero h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.05;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+/* Main hero title */
+.hero h1 {
+  font-size: clamp(4.5rem, 11vw, 10rem);
+  font-weight: 800;
+  letter-spacing: -0.015em;
+}
+
+/* Section headings */
+.section h2 {
+  font-size: clamp(2.75rem, 5vw, 5rem);
+  font-weight: 700;
+}
+
+/* Album and video titles */
+.card h3 {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-weight: 600;
+}
+
+/* Small editorial labels */
+.kicker {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+/* Navigation */
+.header nav a,
+.footer nav a {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Buttons */
+.cta,
+button {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Form fields */
+input,
+textarea {
+  font-family: var(--font-body);
+  font-size: 1rem;
+}
