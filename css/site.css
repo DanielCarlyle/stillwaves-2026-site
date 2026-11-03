@@ -40,3 +40,16 @@ html {
   outline-offset: 3px;
 }
 
+/* Merchandise section */
+.merch-content {
+  max-width: 700px;
+}
+
+.merch-content p {
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+}
+
+#merch {
+  scroll-margin-top: 90px;
+}
