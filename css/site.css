@@ -55,9 +55,8 @@ html {
 }
 
 /* STILLWAVES — Contemporary typography */
-
 :root {
-  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-display: "Space Grotesk", Arial, sans-serif;
   --font-body: "Manrope", Arial, sans-serif;
 }
 
@@ -69,36 +68,35 @@ body {
   line-height: 1.7;
   letter-spacing: 0;
 }
+/* Contemporary StillWaves typography */
 
-/* Large editorial headings */
 h1,
 h2,
 h3,
 .hero h1 {
   font-family: var(--font-display);
   font-weight: 700;
-  line-height: 1.05;
+  line-height: 1.1;
   text-transform: uppercase;
-  letter-spacing: 0.025em;
+  letter-spacing: -0.025em;
 }
 
-/* Main hero title */
 .hero h1 {
-  font-size: clamp(4.5rem, 11vw, 10rem);
-  font-weight: 800;
-  letter-spacing: -0.015em;
-}
-
-/* Section headings */
-.section h2 {
-  font-size: clamp(2.75rem, 5vw, 5rem);
+  font-size: clamp(3.5rem, 9vw, 8rem);
   font-weight: 700;
+  letter-spacing: -0.045em;
 }
 
-/* Album and video titles */
+.section h2 {
+  font-size: clamp(2.5rem, 4.5vw, 4.5rem);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+}
+
 .card h3 {
-  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-size: clamp(1.4rem, 2.2vw, 1.9rem);
   font-weight: 600;
+  letter-spacing: -0.02em;
 }
 
 /* Small editorial labels */
