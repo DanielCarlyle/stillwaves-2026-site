@@ -134,3 +134,38 @@ textarea {
   font-family: var(--font-body);
   font-size: 1rem;
 }
+
+
+
+.stillwaves-logo {
+  margin: 0;
+  text-align: center;
+  line-height: 1;
+}
+
+.stillwaves-logo span {
+  display: inline-block;
+
+  font-family: "Michroma", sans-serif;
+  font-size: clamp(2.5rem, 9vw, 8rem);
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: -0.07em;
+
+  color: transparent;
+
+  background: repeating-linear-gradient(
+    to bottom,
+    #000 0px,
+    #000 7px,
+    transparent 7px,
+    transparent 11px
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  transform: skewX(-12deg) scaleX(1.08);
+  transform-origin: center;
+}
+
