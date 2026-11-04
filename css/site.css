@@ -135,14 +135,6 @@ textarea {
   font-size: 1rem;
 }
 
-
-
-.stillwaves-logo {
-  margin: 0;
-  text-align: center;
-  line-height: 1;
-}
-
 .stillwaves-logo span {
   display: inline-block;
 
@@ -156,8 +148,8 @@ textarea {
 
   background: repeating-linear-gradient(
     to bottom,
-    #000 0px,
-    #000 7px,
+    #ffffff 0px,
+    #ffffff 7px,
     transparent 7px,
     transparent 11px
   );
@@ -168,4 +160,5 @@ textarea {
   transform: skewX(-12deg) scaleX(1.08);
   transform-origin: center;
 }
+
 
